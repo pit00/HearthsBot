@@ -1,0 +1,22 @@
+{
+  "name": "HearthsBot",
+  "version": "1.0.0",
+  "description": "Hearthstone bot for Telegram",
+  "repository": "https://github.com/pit00/",
+  "main": "Code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node Code.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^4.0.0",
+    "goo.gl": "^0.1.4",
+    "hearthstone-mashape": "0.0.6",
+    "remove-markdown": "^0.2.2",
+    "telegraf": "^3.16.4",
+  }
+}
